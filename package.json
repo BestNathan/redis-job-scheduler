@@ -1,0 +1,21 @@
+{
+  "name": "redis-job-scheduler",
+  "version": "0.0.1",
+  "description": "schedule cron job with redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "index"
+  },
+  "keywords": [
+    "redis",
+    "scheduler",
+    "cron-like"
+  ],
+  "author": "Nathan",
+  "license": "MIT",
+  "dependencies": {
+    "cron-parser": "^2.5.0",
+    "ioredis": "^3.2.2",
+    "uuid": "^3.2.1"
+  }
+}
